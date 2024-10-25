@@ -1,5 +1,7 @@
 # git-aliases
 
+Git aliases for those who prefer the terminal over graphical interfaces.
+
 Installation:
 ```
 curl -sSL https://bit.ly/install-git-aliases | bash

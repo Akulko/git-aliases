@@ -29,7 +29,6 @@ git clean-branches - Delete all local branches except main, master, dev, develop
 
 git fix - Discard changes in the working directory
 git undo - Undo the last commit, but keep changes staged
-```
 
 git psuh/puhs - Will still perform a push now ;)
-
+```

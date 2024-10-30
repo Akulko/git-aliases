@@ -15,3 +15,5 @@ git config --global alias.up '!f() { current_branch=$(git symbolic-ref --short H
 git config --global alias.clean-branches '!git branch --format="%(refname:short)" | grep -Ev "^(main|master|dev|development|$(git symbolic-ref --short HEAD))$" | xargs -n 1 git branch -d'
 git config --global alias.fix 'checkout -- .'
 git config --global alias.undo 'reset --soft HEAD~1'
+git config --global alias.puhs 'push'
+git config --global alias.psuh 'push'

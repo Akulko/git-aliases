@@ -24,6 +24,7 @@ git alias - List all git aliases
 
 git go {branch_name} - Stash changes, switch to master, pull, and create a new branch {branch_name}
 git up - Go to master, pull the latest changes and merge them into the current branch
+git fp "{commit_message}" - add everything to staged area, commit with a provided message, push
 
 git clean-branches - Delete all local branches except main, master, dev, development and the current branch
 
